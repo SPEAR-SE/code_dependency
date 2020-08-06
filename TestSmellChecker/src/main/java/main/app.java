@@ -1,3 +1,5 @@
+package main;
+
 import java.io.File;
 import java.util.List;
  
@@ -8,8 +10,8 @@ import util.FetchJavaFiles;
 
 public class app {
 
-	public static void main(String[] args) {
-		String projectdirpath = "/Users/zipeng/Projects/10project/californium";
+	public static void main(String[] args) throws Exception {
+		String projectdirpath = "/Users/zipeng/Projects/10project/cucumber";
 	 
 				
 		String jardir = projectdirpath;
