@@ -27,8 +27,13 @@ mvn exec:java -Dexec.mainClass="app.main"
 ```
 -----
 **Output**  
+
 The identified test smells are stored in  `output/testsmell.csv`.  
+
 The output file contains information about:  
-TestSmellCategory |	TestSmellName	| TestFileWithSmell |	FilesRelatedToTestSmells   
+* TestSmellCategory 
+* TestSmellName	
+* TestFileWithSmell 
+* FilesRelatedToTestSmells   
 
 
