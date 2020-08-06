@@ -1,4 +1,4 @@
-#Test Smell Checker   
+# Test Smell Checker   
 
 
 **Introduction**
@@ -9,7 +9,7 @@ Test smell checker aims to help developers improving test quality. The tool supp
 * Test Smell 2: Scattered test fixtures caused by inheritance. 
 * Test Smell 3: Using test case inheritance to test source code polymorphism.
 
--
+-----
 **Usage**
 
 1) Input the absolute path of the checking project to variable *projectdirpath* in *src/main/java/main/app.java* . 
@@ -25,9 +25,9 @@ mvn clean &&  mvn compile
 ```
 mvn exec:java -Dexec.mainClass="app.main"  
 ```
--
+-----
 **Output**  
-The identified test smells are stored in: *output/testsmell.csv*.  
+The identified test smells are stored in  `output/testsmell.csv`.  
 The output file contains information about:  
 TestSmellCategory |	TestSmellName	| TestFileWithSmell |	FilesRelatedToTestSmells   
 
